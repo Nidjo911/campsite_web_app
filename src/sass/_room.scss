@@ -1,0 +1,147 @@
+/* This is the room gallery styling */
+
+/* Expanding image text */
+#imgtext {
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  max-height: 80%;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.featured--list {
+
+  h5 {
+    font-size: 2.5rem;
+  }
+
+  .list-group {
+    .list-group-item {
+      font-size: 2rem;
+    }
+  }
+
+}
+
+.space--stuff {
+
+  p {
+
+    font-size: 1.6rem;
+  }
+
+  span {
+    background-color: $room--features--color ;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  span:hover {
+    filter: brightness(85%);
+  }
+
+  span::selection {
+    background-color: $complementary;
+    filter: brightness(100%);
+  }
+
+  .material-icons {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  }
+
+
+#expandedImg {
+  max-height: 300px;
+  width: auto;
+}
+
+
+h5 {
+  font-size: 2.5rem;
+  padding: 10px 0;
+}
+
+main {
+  .amenities {
+    border: $amenities--border;
+
+    p {
+
+      font-size: 1.6rem;
+    }
+  
+    span {
+      font-size: 1.5rem;
+      margin: 1%;
+      padding: 1%;
+    }
+    span::before {
+      content: "\2713";
+      padding-right: 0.3rem;
+    }
+  }
+    .specials {
+      border: $amenities--border;
+    }
+}
+
+.expanded-container {
+  display: flex;
+  justify-items: center;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+main {
+  .bigger {
+    font-size: 2rem;
+  }
+}
+
+
