@@ -1,8 +1,7 @@
 'use client'
 
 import React from 'react'
-// In your JavaScript file
-import 'bootstrap/dist/css/bootstrap.min.css';
+/* import 'bootstrap/dist/css/bootstrap.min.css'; */
 
 import '@fortawesome/fontawesome-free'
 
@@ -15,7 +14,7 @@ import Sample3 from '../../media/cover/Sample3.jpg'
 export default function Car() {
 
     return (
-        <Carousel data-bs-theme="dark">
+        <Carousel>
             <Carousel.Item>
                 <img
                     className="d-block w-100"

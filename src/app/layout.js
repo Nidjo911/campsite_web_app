@@ -1,6 +1,3 @@
- 
-import '../app/normalize.css'
-import '../app/style.css'
 
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'

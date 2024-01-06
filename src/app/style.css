@@ -452,6 +452,89 @@ main .bigger {
   justify-content: center;
 }
 
+/* Carousel Container */
+.carousel {
+  position: relative;
+}
+
+/* Carousel Items */
+.carousel-item {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.6s ease;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 15px;
+}
+
+.carousel-control-next {
+  right: 15px;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.carousel-indicator.active {
+  background-color: #007bff;
+}
+
+/* Carousel Fade Transition */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+  display: block;
+}
+
+.d-block {
+  display: block;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
   font-size: 62.5%;

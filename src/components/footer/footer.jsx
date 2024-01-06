@@ -1,6 +1,10 @@
 import React from 'react'
 import { Fragment } from 'react'
 
+import '../../app/normalize.css'
+import '../../app/style.css'
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faArrowRight, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
